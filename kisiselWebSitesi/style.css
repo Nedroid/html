@@ -1,0 +1,197 @@
+/*Boşlukları sıfırla*/
+*{
+    margin:0px;
+    padding:0px;
+}
+.icon{
+
+    width: 100px;
+    height: 80px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: right;
+}
+.altIcon{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+
+}
+.resim{
+    width: 295px;
+    height:455px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.yanResim{
+    width: 290px;
+    height: 300px;
+    margin: 2px;
+}
+.metin{
+    font-size: 12px;
+    scroll-behavior: auto;
+}
+#body{
+    background-color: rgb(117, 174, 212);
+}
+.formeleman{
+    margin:10px ;
+    border-style: dashed;
+    border-width: 5px;
+    padding: 5px;
+
+   
+}
+#form{
+    align-content:center
+}
+#sayfa{
+    width:900px;
+    min-height: 900px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+/*Banner*/
+#banner{
+    width:898px;
+    height: 120px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    position: absolute;
+}
+/*menu*/
+#menu{
+    width: 250px;
+    height: 120px;
+    border-style: dotted;
+    background-color: chartreuse;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+/*sosyal*/
+#sosyal{
+    width: 320px;
+    height: 80px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: bisque;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 10px;
+
+}
+#ikon{
+    float: left;
+    margin-left: 10px;
+}
+#anamenu{
+    width:898px;
+    height: 60px;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    position: relative;
+    top: 120px;
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    width: 200px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: blue;
+    background-color: white;
+    float: left;
+    padding: 5px;
+    margin-left: 3px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+
+    }
+    #anamenu ul a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        background-color: aqua;
+    }
+    #anamenu ul a:link{
+        color: yellow;
+    }
+    #anamenu ul a:visited{
+        color: brown;
+    }
+    #anamenu ul a :hover{
+        color:red;
+        text-decoration: underline;
+
+    }
+    #anamenu ul a :active{
+        color:red;
+    }
+    #icerik{
+        width:595px;
+        height: 500px;
+        background-color: rgb(245, 149, 149);
+        border-style: dotted;
+        border-width: 1px;
+        margin: auto;
+        float: left;        
+        position: relative;
+        top: 180px;
+    }
+    #yanmenu{
+        width:295px;
+        height: 500px;
+        background-color: rgb(147, 235, 147);
+        border-style: dotted;
+        border-width: 1px;
+        margin: auto;
+        position: relative;
+        top: 180px;
+        float: left;
+    }
+    #table{
+        box-shadow: inset;
+        width: fit-content;
+        height: fit-content;
+        th{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: brown;
+            margin: 10px;
+            padding: 10px;
+        }
+        td{
+            padding: 5px;
+            vertical-align:middle;
+            border-radius: 10px;
+        }
+    }
+    /*Alt menu*/
+    #altmenu{
+        width:898px;
+        height: 120px;
+        border-style: solid;
+        border-width: 1px;
+        margin: auto;
+        position: relative;
+        top: 778px;
+        
+
+
+    }
+    #altmenu ul{
+        list-style-type: none;
+    }

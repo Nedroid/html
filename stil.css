@@ -3,5 +3,25 @@ a{
     font-size: 14px;
 }
 h1{
+    color: blue;
+}
+*{
     color: red;
 }
+p{
+    color: aqua;
+}
+#ilk{
+    border-color: brown;
+}
+#hİlk{
+    color: burlywood;
+}
+
+    h1,h2{
+        color: red;
+    }
+    p{
+        color: blue;
+    }
+u
